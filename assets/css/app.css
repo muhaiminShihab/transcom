@@ -1,0 +1,119 @@
+/* default css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+    width: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header area css */
+.header-top-area {
+    background-color: #f5f5f5;
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+
+.header-top-area .help {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.header-top-area a {
+    padding: 0 10px;
+}
+
+.header-top-area a:last-child {
+    padding-right: 0;
+}
+
+.header-middle-area {
+    padding: 20px;
+    border-bottom: 1px solid #a09595;
+}
+
+.header-middle-area svg {
+    width: 25px;
+}
+
+.header-middle-area .search {
+    position: relative;
+}
+
+.header-middle-area .search input {
+    border: 2px solid #ff0000;
+}
+
+.header-middle-area .form-control:hover,
+.header-middle-area .form-control:focus {
+    border-color: #ff0000 !important;
+}
+
+.header-middle-area .search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 100%;
+    width: 50px;
+    border: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.header-bottom-area {
+    padding: 10px;
+    font-weight: 600;
+    border-bottom: 1px solid #a09595;
+}
+
+.header-bottom-area .menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header-bottom-area .menu li {
+    display: inline-block;
+}
+
+.header-bottom-area .menu li a {
+    padding: 0 10px;
+}
+
+.header-bottom-area .menu li a:first-child {
+    padding-left: 0 !important;
+}
+
+.header-bottom-area .actions a {
+    padding: 15px;
+}
+
+.header-bottom-area .actions a:last-child {
+    padding-right: 0;
+}
+
+.header-bottom-area .actions svg {
+    width: 25px;
+}
+
+/* slider area css */
+.slider-area {
+    margin: 50px 0;
+}
+
+.slider-area .carousel-item img {
+    border-radius: 6px !important;
+}
