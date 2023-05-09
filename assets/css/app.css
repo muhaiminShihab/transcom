@@ -20,6 +20,10 @@ a {
     color: inherit;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 .section-title {
     border-bottom: 1px solid #a09595;
     padding-bottom: 20px;
