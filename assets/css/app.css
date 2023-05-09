@@ -186,3 +186,30 @@ a {
 .category-item h4 {
     font-size: 15px;
 }
+
+/* footer area css */
+.footer-area {
+    background-color: #f5f5f5;
+}
+
+.footer-area .footer-info .footer-info-contact {
+    font-size: 20px;
+}
+
+.footer-area .footer-info .footer-info-social svg {
+    width: 30px;
+}
+
+.footer-area .footer-menu h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-area .footer-menu ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-area .footer-menu ul li {
+    padding: 4px 0;
+}
