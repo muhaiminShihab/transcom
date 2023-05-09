@@ -8,6 +8,7 @@
 body {
     width: 100%;
     height: 100%;
+    margin-bottom: 400px;
 }
 
 svg {
@@ -17,6 +18,16 @@ svg {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.section-title {
+    border-bottom: 1px solid #a09595;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.section-title .btn {
+    border: 2px solid;
 }
 
 /* header area css */
@@ -116,4 +127,58 @@ a {
 
 .slider-area .carousel-item img {
     border-radius: 6px !important;
+}
+
+/* product item css */
+.product-item .product-inner {
+    transition: .3s all ease-in-out !important;
+    padding: 15px;
+}
+
+.product-action {
+    opacity: 0;
+    transition: .3s all ease-in-out !important;
+}
+
+.product-item:hover .product-action {
+    opacity: 1;
+}
+
+.product-item .product-category,
+.product-item .product-policy {
+    font-size: 13px;
+}
+
+.product-item .product-title {
+    font-size: 15px;
+}
+
+.product-item .product-price .main-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-item .product-image img {
+    max-width: 70%;
+}
+
+.product-item .product-image .product-badge {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px 10px;
+    line-height: 13px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* category item css */
+.category-item h4 {
+    font-size: 15px;
 }
