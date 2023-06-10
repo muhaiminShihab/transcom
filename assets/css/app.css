@@ -198,3 +198,8 @@ ul {
 .product-overview .product-price {
     font-size: 30px;
 }
+
+/* login area css */
+.iti {
+    display: block !important;
+}
