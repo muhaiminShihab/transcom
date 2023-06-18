@@ -10,6 +10,8 @@
     <!-- css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
 
@@ -21,8 +23,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
-                            class="bi bi-headset" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-headset"
+                            viewBox="0 0 16 16">
                             <path
                                 d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
                         </svg>
@@ -199,12 +201,12 @@
     <!-- slider area end -->
 
     <!-- best deals area start -->
-    <section class="best-deals-area">
+    <section class="best-deals-area mb-60">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title border-bottom pb-3 mb-3">
-                        <h3 class="d-inline align-bottom fs-20 fw-bold">Best Deals</h3>
+                        <h3 class="d-inline align-middle fs-20 fw-bold">Best Deals</h3>
                         <a href="" class="btn btn-default btn-sm text-danger">See All
                             <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -218,7 +220,16 @@
                 <div class="col-md-4 col-lg-3 p-0">
                     <div class="product-item">
                         <div class="product-inner p-3 transition border-end">
-                            <div class="product-category mb-2 fs-12 text-muted">Refrigerator</div>
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="col">
+                                    <div class="product-category fs-12 text-muted">Refrigerator</div>
+                                </div>
+                                <div class="col text-end">
+                                    <span class="badge bg-red text-white">
+                                        New
+                                    </span>
+                                </div>
+                            </div>
                             <a href="product.html">
                                 <h4 class="product-title fs-14">
                                     Hitachi Stylish Bottom Freezer | R-BG410P6PBX (XGR) | 366L
@@ -613,11 +624,11 @@
     <!-- best deals area end -->
 
     <!-- category area start -->
-    <section class="category mb-100">
+    <section class="category-area mb-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-title border-bottom pb-3 mb-3">
+                    <div class="section-title border-middle pb-3 mb-3">
                         <h3 class="d-inline align-middle fs-20 fw-bold">Shop By Category</h3>
                         <a href="" class="btn btn-default btn-sm text-danger">See All
                             <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -629,72 +640,80 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="category-item text-center">
-                        <div class="category-image">
-                            <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1f21-45ac-9c4b-f83580977c1e&w=1500&q=75"
-                                alt="" class="img-fluid">
-                        </div>
-                        <h4 class="fs-15">Mobile | Tab</h4>
-                    </div>
+            </div>
+            <div class="category-slider">
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1f21-45ac-9c4b-f83580977c1e&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Mobile | Tab</h4>
                 </div>
-                <div class="col-lg-2">
-                    <div class="category-item text-center">
-                        <div class="category-image">
-                            <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1e39-4585-9ba5-dfb488f8b3c9&w=1500&q=75"
-                                alt="" class="img-fluid">
-                        </div>
-                        <h4 class="fs-15">TV | AV</h4>
-                    </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1e39-4585-9ba5-dfb488f8b3c9&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">TV | AV</h4>
                 </div>
-                <div class="col-lg-2">
-                    <div class="category-item text-center">
-                        <div class="category-image">
-                            <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1f34-4d40-88d5-ab2439f7dfee&w=1500&q=75"
-                                alt="" class="img-fluid">
-                        </div>
-                        <h4 class="fs-15">Refrigaretor</h4>
-                    </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1f34-4d40-88d5-ab2439f7dfee&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Refrigaretor</h4>
                 </div>
-                <div class="col-lg-2">
-                    <div class="category-item text-center">
-                        <div class="category-image">
-                            <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-2020-4b8f-a10b-f914e46c5340&w=1500&q=75"
-                                alt="" class="img-fluid">
-                        </div>
-                        <h4 class="fs-15">Air Conditioner</h4>
-                    </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-2020-4b8f-a10b-f914e46c5340&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Air Conditioner</h4>
                 </div>
-                <div class="col-lg-2">
-                    <div class="category-item text-center">
-                        <div class="category-image">
-                            <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-2106-4356-86f4-773563f86471&w=1500&q=75"
-                                alt="" class="img-fluid">
-                        </div>
-                        <h4 class="fs-15">Home & Kitchen</h4>
-                    </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-2106-4356-86f4-773563f86471&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Home & Kitchen</h4>
                 </div>
-                <div class="col-lg-2">
-                    <div class="category-item text-center">
-                        <div class="category-image">
-                            <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-211a-4f05-a98a-23c3cd5504a1&w=1500&q=75"
-                                alt="" class="img-fluid">
-                        </div>
-                        <h4 class="fs-15">Laptop</h4>
-                    </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-211a-4f05-a98a-23c3cd5504a1&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Laptop</h4>
+                </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1f21-45ac-9c4b-f83580977c1e&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Mobile | Tab</h4>
+                </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1e39-4585-9ba5-dfb488f8b3c9&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">TV | AV</h4>
+                </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-1f34-4d40-88d5-ab2439f7dfee&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Refrigaretor</h4>
+                </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-2020-4b8f-a10b-f914e46c5340&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Air Conditioner</h4>
+                </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-2106-4356-86f4-773563f86471&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Home & Kitchen</h4>
+                </div>
+                <div class="category-item text-center">
+                    <img src="https://transcomdigital.com/_next/image?url=https%3A%2F%2Ftranscom-storage.s3.amazonaws.com%2F2eb459e3-036e-4c2f-ac2a-2a2039c4a351%2Fddd04b35-531a-4fe0-bc10-d4103d6bf2a6%2Fimages%2Fe60a1f09-211a-4f05-a98a-23c3cd5504a1&w=1500&q=75"
+                        alt="" class="img-fluid mx-auto">
+                    <h4 class="fs-15">Laptop</h4>
                 </div>
             </div>
         </div>
     </section>
     <!-- category area end -->
 
-    <!-- best selligs area start -->
-    <section class="best-sellings-area">
+    <!-- best selling area start -->
+    <section class="best-selling-area mb-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-title border-bottom pb-3 mb-3">
-                        <h3 class="d-inline align-bottom fs-20 fw-bold">Best Sellings</h3>
+                    <div class="section-title border-middle pb-3 mb-3">
+                        <h3 class="d-inline fs-20 fw-bold align-middle">Best Selling</h3>
                         <a href="" class="btn btn-default btn-sm text-danger">See All
                             <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -1100,14 +1119,14 @@
             </div>
         </div>
     </section>
-    <!-- best sellings area end -->
+    <!-- best selling area end -->
 
     <!-- brands area start -->
     <section class="brands-area mb-100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-title border-bottom pb-3 mb-3">
+                    <div class="section-title border-middle pb-3 mb-3">
                         <h3 class="d-inline fs-20 fw-bold align-middle">Explore Brands</h3>
                         <a href="" class="btn btn-default btn-sm text-danger">See All
                             <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -1159,6 +1178,124 @@
         </div>
     </section>
     <!-- brands area end -->
+
+    <!-- about area start -->
+    <section class="about-area mb-100">
+        <div class="container">
+            <!-- about content start -->
+            <div class="mb-5">
+                <h4 class="fs-14 fw-bold mb-4">Buy Original Electronic products at Transcom Digital- Best Online Shop in
+                    Bangladesh</h4>
+                <p class="fs-13">
+                    <a href="#" class="text-primary text-underline">Transcomdigital.com</a> is #1 online shopping
+                    platform in Bangladesh offering premium quality and best online experience to purchase Original
+                    Electronic Appliances. You can find almost all kind of electronics solution for your home like; <br>
+
+                    <a href="#" class="text-primary text-underline">Kitchen Appliances</a>, <a href="#"
+                        class="text-primary text-underline">Home Appliances</a>, <a href="#"
+                        class="text-primary text-underline">TV & AV</a>, <a href="#"
+                        class="text-primary text-underline">Refrigerator</a>, <a href="#"
+                        class="text-primary text-underline">Air Condition</a>, and <a href="#"
+                        class="text-primary text-underline">Personal Care</a> to make your busy life very easy! <br><br>
+
+                    For shoppers across the country, Transcom Digital is offering premium electronic appliances from
+                    renowned brands like Samsung, Philips, Panasonic, Hitachi, Whirlpool, Transtec, Daikin, Sanford,
+                    Hoover, Pureit, HP and Dell.
+                </p>
+            </div>
+            <!-- about content end -->
+            <!-- why us content start -->
+            <div class="mb-5">
+                <h4 class="mb-3 fw-bold fs-14">
+                    Why Transcom Digital for online buying? <br>
+                    Hassle free online Electronics shop in BD
+                </h4>
+                <p class="fs-13">
+                    Buying appliances like Fridge, AC or TV is a hassle and searching for the one you desire shop to
+                    shop is also time-consuming. That’s why to make your busy life easy and to help you to choose the
+                    appliance you want, Transcom Digital gathered the huge range of the big and small appliances of
+                    world-renowned brands online transcomdigital.com <br><br>
+
+                    So, to choose your big or small appliance all you have to do is browsing www.transcomdigital.com and
+                    choose the category of the product you are looking for. And at the end add the product to the cart
+                    and relax!
+                </p>
+            </div>
+            <!-- why us content end -->
+            <!-- security content start -->
+            <div class="mb-5">
+                <h4 class="mb-4 fw-bold fs-14">Pleasant and secured buying every time</h4>
+                <p class="fs-13">
+                    We strive to offer you an ultimate experience of online shopping with the quick delivery of products
+                    and secured service. You can be tension free after purchasing any electronic product from us as all
+                    of our products are original and the payment services like Cash on Delivery, Net Banking to pay via
+                    Credit Card with easy EMI facility are safe and secured.
+
+
+
+                    <span class="d-block my-4 text-primary text-underline fw-bold">Deals and Offers of Transcom
+                        Digital</span>
+
+
+
+                    You can visit this page to stay updated on the new arrival product available or brand launches. It
+                    is also a great place to visit often for the current deals and special offers going on at Transcom
+                    Digital. Once you have got your desired product, don’t forget to add that to your cart.
+                </p>
+            </div>
+            <!-- security content end -->
+            <!-- easy payment content start -->
+            <div class="mb-5">
+                <h4 class="mb-4 fw-bold fs-14">Easy Payment Method For Online Shopping in BD</h4>
+                <p class="fs-13">
+                    Transcom Digital also offers flexibility to a customer to pay by their preferred payment option. One
+                    can pay by cash, credit cards, wallet and can pay-on-delivery. We also allow customers to avail
+                    various Easy EMI options. To ensure that our customers enjoy their product to the fullest, we also
+                    provide them Extended Warranty across all categories.
+                </p>
+            </div>
+            <!-- easy payment content end -->
+            <!-- why we best content start -->
+            <div class="mb-5">
+                <h4 class="mb-4 fw-bold fs-14">Why we are the best for buying online!</h4>
+                <p class="fs-13">
+                    We are providing original products with free delivery and installation facility and after-sales
+                    service to give you the finest experience of online shopping in Bangladesh. Anytime! You also can
+                    get to know important facts and tips from our Blog about our products and their usage. So hurry up
+                    and experience the best online electronics shopping online.
+                </p>
+            </div>
+            <!-- why we best content end -->
+            <!-- buy original content start -->
+            <div class="mb-5">
+                <h4 class="mb-4 fw-bold fs-14">Buy original electronics product by Category</h4>
+                <div class="d-block mb-2">
+                    <span class="fw-bold">Mobile Tablets:</span>
+                    <a href="" class="px-2 text-primary text-underline">Smart Phones</a>
+                    <a href="" class="px-2 text-primary text-underline border-start border-primary">Feature Phones</a>
+                </div>
+                <div class="d-block mb-2">
+                    <span class="fw-bold">TV/AV:</span>
+                    <a href="" class="px-2 text-primary text-underline">Samsung</a>
+                    <a href="" class="px-2 text-primary text-underline border-start border-primary">Xiaomi</a>
+                    <a href="" class="px-2 text-primary text-underline border-start border-primary">Sony</a>
+                    <a href="" class="px-2 text-primary text-underline border-start border-primary">Walton</a>
+                </div>
+            </div>
+            <!-- buy original content end -->
+            <!-- support content start -->
+            <div>
+                <p class="fs-13">
+                    Keep in Touch with the Most Trusted Electronics Store – Transcom Digital Bangladesh. <br>
+
+                    In case of any query, feel free to write to us at estore@transcomdigital.com or call on 16212. You
+                    can also find your desired products in our showrooms.
+                </p>
+            </div>
+            <!-- support content end -->
+        </div>
+    </section>
+    <!-- about area end -->
 
     <!-- footer area start -->
     <footer class="footer-area pt-5">
@@ -1282,9 +1419,11 @@
     <!-- footer area end -->
 
     <!-- js -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
 
