@@ -183,12 +183,45 @@ ul.slick-dots li button {
     width: 50px;
 }
 
+.header-bottom-area .menu li {
+    position: relative;
+}
+
 .header-bottom-area .menu li a:first-child {
     padding-left: 0 !important;
 }
 
 .header-bottom-area .actions a:last-child {
     padding-right: 0;
+}
+
+.header-bottom-area .menu .sub-menu {
+    position: absolute;
+    bottom: -125px;
+    left: 0;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 3px;
+    min-width: 140px;
+}
+
+.header-bottom-area .sub-menu li {
+    position: relative;
+    display: block;
+    width: 100%;
+    transition: .3s all ease-in-out;
+}
+
+.header-bottom-area .sub-menu a {
+    padding: 4px 2px;
+    display: inline-block;
+    width: 100%;
+}
+
+.header-bottom-area .sub-menu li:hover {
+    background-color: #f6f6f6;
 }
 
 /* product item css */
@@ -223,6 +256,16 @@ ul.slick-dots li button {
 
 .footer-area .footer-copyrights {
     background-color: #e7e7e7;
+}
+
+@media (max-width: 768px) {
+    .footer-area .footer-menu {
+        margin-top: 30px;
+    }
+
+    .footer-area .footer-menu h4 {
+        margin-bottom: 10px;
+    }
 }
 
 /* product details area css */
@@ -271,6 +314,13 @@ ul.slick-dots li button {
     font-size: 30px;
 }
 
+@media (max-width: 768px) {
+    .product-details-area .nav-pills li {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+}
+
 /* login area css */
 .iti {
     display: block !important;
@@ -285,4 +335,20 @@ ul.slick-dots li button {
     display: inline-block;
     text-align: center;
     line-height: 50px;
+}
+
+/* cart area css */
+@media (max-width: 768px) {
+    .cart-area .cart-item {
+        font-size: 12px !important;
+    }
+
+    .cart-area .cart-item h1 {
+        font-size: 13px;
+    }
+
+    .cart-area .cart-item span {
+        display: block;
+        font-size: 12px !important;
+    }
 }
