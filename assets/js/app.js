@@ -36,3 +36,19 @@ $(document).ready(function () {
         ]
     });
 });
+
+// mobile menu
+function toggleMenu() {
+    var menu = document.getElementById("mobile-menu");
+    var openMenuIcon = document.getElementById("open-menu-icon");
+    var closeMenuIcon = document.getElementById("close-menu-icon");
+    
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+    if (menu.style.display === "block") {
+        closeMenuIcon.classList.remove('d-none');
+        openMenuIcon.classList.add('d-none');
+    } else {
+        openMenuIcon.classList.remove('d-none');
+        closeMenuIcon.classList.add('d-none');
+    }
+}

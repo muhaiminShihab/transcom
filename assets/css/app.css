@@ -183,13 +183,16 @@ ul.slick-dots li button {
     width: 50px;
 }
 
-.header-bottom-area .menu li {
+.header-bottom-area .menu,
+.header-bottom-area .menu li,
+.header-bottom-area .menu li a {
     position: relative;
+    transition: .3s all ease-in-out;
 }
 
-.header-bottom-area .menu li a:first-child {
+/* .header-bottom-area .menu li a:first-child {
     padding-left: 0 !important;
-}
+} */
 
 .header-bottom-area .actions a:last-child {
     padding-right: 0;
@@ -197,27 +200,53 @@ ul.slick-dots li button {
 
 .header-bottom-area .menu .sub-menu {
     position: absolute;
-    bottom: -125px;
+    top: 150%;
     left: 0;
     background-color: #ffffff;
-    padding: 20px 15px;
+    padding: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 10;
     border-radius: 3px;
-    min-width: 140px;
-}
-
-.header-bottom-area .sub-menu li {
-    position: relative;
-    display: block;
-    width: 100%;
+    min-width: 200px;
+    display: none;
     transition: .3s all ease-in-out;
 }
 
+.header-bottom-area .menu .sub-menu-2,
+.header-bottom-area .menu .sub-menu-3 {
+    position: absolute;
+    top: -45%;
+    left: 100%;
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-radius: 3px;
+    min-width: 200px;
+    display: none;
+    transition: .3s all ease-in-out;
+}
+
+.header-bottom-area .menu li:hover .sub-menu {
+    display: block;
+}
+
+.header-bottom-area .sub-menu li:hover .sub-menu-2 {
+    display: block;
+}
+
+.header-bottom-area .sub-menu-2 li:hover .sub-menu-3 {
+    display: block;
+}
+
+.header-bottom-area .sub-menu li {
+    transition: .3s all ease-in-out;
+    position: relative;
+    display: block;
+}
+
 .header-bottom-area .sub-menu a {
-    padding: 4px 2px;
-    display: inline-block;
-    width: 100%;
+    padding: 10px 15px;
 }
 
 .header-bottom-area .sub-menu li:hover {
