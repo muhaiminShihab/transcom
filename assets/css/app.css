@@ -381,3 +381,13 @@ ul.slick-dots li button {
         font-size: 12px !important;
     }
 }
+
+/* delivery type area css */
+.delivery-type ul li.button-active {
+    background-color: #ffffff;
+    border: 2px solid red;
+}
+
+.delivery-type ul li:hover {
+    background-color: #ffffff;
+}
